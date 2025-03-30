@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'FxxkUnityDocs',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Unityなんもわからん',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -68,10 +68,10 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'FxxkUnityDocs',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'ERROR',
+        src: 'img/Ulogo_200.png',
       },
       items: [
         {
@@ -104,10 +104,6 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
               href: 'https://discord.gg/9VvYuXRvxs',
             },
@@ -126,12 +122,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/Satsumaage/FUD',
+              href: 'https://github.com/Satsumaage',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ryugasaki sui. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

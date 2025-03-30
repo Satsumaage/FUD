@@ -5,7 +5,7 @@
  */
 export default {
   "title": "FxxkUnityDocs",
-  "tagline": "Dinosaurs are cool",
+  "tagline": "Unityなんもわからん",
   "favicon": "img/favicon.ico",
   "url": "https://satsumaage.github.io",
   "baseUrl": "/FUD/",
@@ -52,10 +52,10 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "FxxkUnityDocs",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": "ERROR",
+        "src": "img/Ulogo_200.png"
       },
       "items": [
         {
@@ -93,10 +93,6 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
               "label": "Discord",
               "href": "https://discord.gg/9VvYuXRvxs"
             },
@@ -115,12 +111,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/Satsumaage/FUD"
+              "href": "https://github.com/Satsumaage"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2025 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2025 ryugasaki sui. Built with Docusaurus."
     },
     "prism": {
       "theme": {
