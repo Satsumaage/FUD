@@ -27,7 +27,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/Satsumaage/FUD/edit/main/docs/"
+          "editUrl": "https://github.com/Satsumaage/FUD/edit/main/"
         },
         "blog": {
           "showReadingTime": true,
@@ -38,7 +38,7 @@ export default {
             ],
             "xslt": true
           },
-          "editUrl": "https://github.com/Satsumaage/FUD/edit/main/docs/",
+          "editUrl": "https://github.com/Satsumaage/FUD/edit/main/",
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
           "onUntruncatedBlogPosts": "warn"
