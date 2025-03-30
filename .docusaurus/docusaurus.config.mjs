@@ -9,7 +9,7 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://satsumaage.github.io",
   "baseUrl": "/FUD/",
-  "organizationName": "Ryugasaki_sui",
+  "organizationName": "satsumaage",
   "projectName": "FUD",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
