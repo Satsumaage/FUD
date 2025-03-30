@@ -6,7 +6,7 @@
 export default {
   "title": "FxxkUnityDocs",
   "tagline": "Unityなんもわからん",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/Ufavicon.ico",
   "url": "https://satsumaage.github.io",
   "baseUrl": "/FUD/",
   "organizationName": "satsumaage",
