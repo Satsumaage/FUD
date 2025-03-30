@@ -70,7 +70,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/Satsumaage/FUD",
           "label": "GitHub",
           "position": "right"
         }
@@ -98,11 +98,11 @@ export default {
             },
             {
               "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "href": "https://discord.gg/9VvYuXRvxs"
             },
             {
               "label": "X",
-              "href": "https://x.com/docusaurus"
+              "href": "https://x.com/VR_gasaki"
             }
           ]
         },
@@ -115,7 +115,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/Satsumaage/FUD"
             }
           ]
         }
