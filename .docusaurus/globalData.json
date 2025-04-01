@@ -156,53 +156,53 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/animatoranimation",
+              "path": "/FUD/docs/category/animatoranimation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/blender",
+              "path": "/FUD/docs/category/blender",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/gimp",
+              "path": "/FUD/docs/category/gimp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/ma",
+              "path": "/FUD/docs/category/ma",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/vrcfury",
+              "path": "/FUD/docs/category/vrcfury",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/liltoon",
+              "path": "/FUD/docs/category/liltoon",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/poiyomi",
+              "path": "/FUD/docs/category/poiyomi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/tutorial---extras",
               "path": "/FUD/docs/category/tutorial---extras",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---extras-1",
-              "path": "/FUD/docs/category/tutorial---extras-1",
+              "id": "/category/テクスチャ解説",
+              "path": "/FUD/docs/category/テクスチャ解説",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---extras-2",
-              "path": "/FUD/docs/category/tutorial---extras-2",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras-3",
-              "path": "/FUD/docs/category/tutorial---extras-3",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras-4",
-              "path": "/FUD/docs/category/tutorial---extras-4",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras-5",
-              "path": "/FUD/docs/category/tutorial---extras-5",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras-6",
-              "path": "/FUD/docs/category/tutorial---extras-6",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras-7",
-              "path": "/FUD/docs/category/tutorial---extras-7",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras-8",
-              "path": "/FUD/docs/category/tutorial---extras-8",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras-9",
-              "path": "/FUD/docs/category/tutorial---extras-9",
+              "id": "/category/パーティクル",
+              "path": "/FUD/docs/category/パーティクル",
               "sidebar": "tutorialSidebar"
             }
           ],

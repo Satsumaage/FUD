@@ -79,15 +79,15 @@ export default [
   },
   {
     path: '/FUD/docs',
-    component: ComponentCreator('/FUD/docs', 'da7'),
+    component: ComponentCreator('/FUD/docs', 'fbd'),
     routes: [
       {
         path: '/FUD/docs',
-        component: ComponentCreator('/FUD/docs', 'aea'),
+        component: ComponentCreator('/FUD/docs', 'd9b'),
         routes: [
           {
             path: '/FUD/docs',
-            component: ComponentCreator('/FUD/docs', 'e18'),
+            component: ComponentCreator('/FUD/docs', 'd6a'),
             routes: [
               {
                 path: '/FUD/docs/Animator,Animation/manage-docs-versions',
@@ -114,6 +114,42 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/FUD/docs/category/animatoranimation',
+                component: ComponentCreator('/FUD/docs/category/animatoranimation', '4c0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/category/blender',
+                component: ComponentCreator('/FUD/docs/category/blender', '3a4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/category/gimp',
+                component: ComponentCreator('/FUD/docs/category/gimp', 'fe5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/category/liltoon',
+                component: ComponentCreator('/FUD/docs/category/liltoon', '670'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/category/ma',
+                component: ComponentCreator('/FUD/docs/category/ma', '1f0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/category/poiyomi',
+                component: ComponentCreator('/FUD/docs/category/poiyomi', 'a92'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/FUD/docs/category/tutorial---basics',
                 component: ComponentCreator('/FUD/docs/category/tutorial---basics', 'ebf'),
                 exact: true,
@@ -126,56 +162,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/FUD/docs/category/tutorial---extras-1',
-                component: ComponentCreator('/FUD/docs/category/tutorial---extras-1', '6c2'),
+                path: '/FUD/docs/category/vrcfury',
+                component: ComponentCreator('/FUD/docs/category/vrcfury', '179'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/FUD/docs/category/tutorial---extras-2',
-                component: ComponentCreator('/FUD/docs/category/tutorial---extras-2', '783'),
+                path: '/FUD/docs/category/テクスチャ解説',
+                component: ComponentCreator('/FUD/docs/category/テクスチャ解説', '4ed'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/FUD/docs/category/tutorial---extras-3',
-                component: ComponentCreator('/FUD/docs/category/tutorial---extras-3', 'ef5'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/FUD/docs/category/tutorial---extras-4',
-                component: ComponentCreator('/FUD/docs/category/tutorial---extras-4', '78c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/FUD/docs/category/tutorial---extras-5',
-                component: ComponentCreator('/FUD/docs/category/tutorial---extras-5', 'd2d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/FUD/docs/category/tutorial---extras-6',
-                component: ComponentCreator('/FUD/docs/category/tutorial---extras-6', '1aa'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/FUD/docs/category/tutorial---extras-7',
-                component: ComponentCreator('/FUD/docs/category/tutorial---extras-7', 'db1'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/FUD/docs/category/tutorial---extras-8',
-                component: ComponentCreator('/FUD/docs/category/tutorial---extras-8', 'abe'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/FUD/docs/category/tutorial---extras-9',
-                component: ComponentCreator('/FUD/docs/category/tutorial---extras-9', 'f00'),
+                path: '/FUD/docs/category/パーティクル',
+                component: ComponentCreator('/FUD/docs/category/パーティクル', '997'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
