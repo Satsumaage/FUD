@@ -1,0 +1,27 @@
+{
+  "id": "テクスチャ解説/manage-docs-versions",
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs/テクスチャ解説/manage-docs-versions.md",
+  "sourceDirName": "テクスチャ解説",
+  "slug": "/テクスチャ解説/manage-docs-versions",
+  "permalink": "/FUD/docs/テクスチャ解説/manage-docs-versions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Satsumaage/FUD/edit/main/docs/テクスチャ解説/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorial - Extras",
+    "permalink": "/FUD/docs/category/tutorial---extras-8"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/FUD/docs/テクスチャ解説/translate-your-site"
+  }
+}

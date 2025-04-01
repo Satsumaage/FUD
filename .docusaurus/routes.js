@@ -79,16 +79,40 @@ export default [
   },
   {
     path: '/FUD/docs',
-    component: ComponentCreator('/FUD/docs', '0a1'),
+    component: ComponentCreator('/FUD/docs', 'da7'),
     routes: [
       {
         path: '/FUD/docs',
-        component: ComponentCreator('/FUD/docs', 'cbb'),
+        component: ComponentCreator('/FUD/docs', 'aea'),
         routes: [
           {
             path: '/FUD/docs',
-            component: ComponentCreator('/FUD/docs', 'a39'),
+            component: ComponentCreator('/FUD/docs', 'e18'),
             routes: [
+              {
+                path: '/FUD/docs/Animator,Animation/manage-docs-versions',
+                component: ComponentCreator('/FUD/docs/Animator,Animation/manage-docs-versions', 'b5a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/Animator,Animation/translate-your-site',
+                component: ComponentCreator('/FUD/docs/Animator,Animation/translate-your-site', '91c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/Blender/manage-docs-versions',
+                component: ComponentCreator('/FUD/docs/Blender/manage-docs-versions', '0cf'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/Blender/translate-your-site',
+                component: ComponentCreator('/FUD/docs/Blender/translate-your-site', '2a4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/FUD/docs/category/tutorial---basics',
                 component: ComponentCreator('/FUD/docs/category/tutorial---basics', 'ebf'),
@@ -102,14 +126,116 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/FUD/docs/category/tutorial---extras-1',
+                component: ComponentCreator('/FUD/docs/category/tutorial---extras-1', '6c2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/category/tutorial---extras-2',
+                component: ComponentCreator('/FUD/docs/category/tutorial---extras-2', '783'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/category/tutorial---extras-3',
+                component: ComponentCreator('/FUD/docs/category/tutorial---extras-3', 'ef5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/category/tutorial---extras-4',
+                component: ComponentCreator('/FUD/docs/category/tutorial---extras-4', '78c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/category/tutorial---extras-5',
+                component: ComponentCreator('/FUD/docs/category/tutorial---extras-5', 'd2d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/category/tutorial---extras-6',
+                component: ComponentCreator('/FUD/docs/category/tutorial---extras-6', '1aa'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/category/tutorial---extras-7',
+                component: ComponentCreator('/FUD/docs/category/tutorial---extras-7', 'db1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/category/tutorial---extras-8',
+                component: ComponentCreator('/FUD/docs/category/tutorial---extras-8', 'abe'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/category/tutorial---extras-9',
+                component: ComponentCreator('/FUD/docs/category/tutorial---extras-9', 'f00'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/GIMP/manage-docs-versions',
+                component: ComponentCreator('/FUD/docs/GIMP/manage-docs-versions', '3c9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/GIMP/translate-your-site',
+                component: ComponentCreator('/FUD/docs/GIMP/translate-your-site', '0be'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/FUD/docs/intro',
                 component: ComponentCreator('/FUD/docs/intro', '8f7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/FUD/docs/liltoon/manage-docs-versions',
+                component: ComponentCreator('/FUD/docs/liltoon/manage-docs-versions', 'cfe'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/liltoon/translate-your-site',
+                component: ComponentCreator('/FUD/docs/liltoon/translate-your-site', '57e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/MA/manage-docs-versions',
+                component: ComponentCreator('/FUD/docs/MA/manage-docs-versions', 'f88'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/MA/translate-your-site',
+                component: ComponentCreator('/FUD/docs/MA/translate-your-site', '897'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/FUD/docs/physbone',
                 component: ComponentCreator('/FUD/docs/physbone', '071'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/poiyomi/manage-docs-versions',
+                component: ComponentCreator('/FUD/docs/poiyomi/manage-docs-versions', '22a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/poiyomi/translate-your-site',
+                component: ComponentCreator('/FUD/docs/poiyomi/translate-your-site', '2b5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -158,6 +284,42 @@ export default [
               {
                 path: '/FUD/docs/tutorial-extras/translate-your-site',
                 component: ComponentCreator('/FUD/docs/tutorial-extras/translate-your-site', '5d4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/VRCFury/manage-docs-versions',
+                component: ComponentCreator('/FUD/docs/VRCFury/manage-docs-versions', '6e5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/VRCFury/translate-your-site',
+                component: ComponentCreator('/FUD/docs/VRCFury/translate-your-site', '82d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/テクスチャ解説/manage-docs-versions',
+                component: ComponentCreator('/FUD/docs/テクスチャ解説/manage-docs-versions', 'aa0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/テクスチャ解説/translate-your-site',
+                component: ComponentCreator('/FUD/docs/テクスチャ解説/translate-your-site', 'fb3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/パーティクル/manage-docs-versions',
+                component: ComponentCreator('/FUD/docs/パーティクル/manage-docs-versions', 'fe0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/パーティクル/translate-your-site',
+                component: ComponentCreator('/FUD/docs/パーティクル/translate-your-site', 'cf1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

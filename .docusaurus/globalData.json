@@ -11,13 +11,73 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "Animator,Animation/manage-docs-versions",
+              "path": "/FUD/docs/Animator,Animation/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Animator,Animation/translate-your-site",
+              "path": "/FUD/docs/Animator,Animation/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Blender/manage-docs-versions",
+              "path": "/FUD/docs/Blender/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Blender/translate-your-site",
+              "path": "/FUD/docs/Blender/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "GIMP/manage-docs-versions",
+              "path": "/FUD/docs/GIMP/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "GIMP/translate-your-site",
+              "path": "/FUD/docs/GIMP/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/FUD/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "liltoon/manage-docs-versions",
+              "path": "/FUD/docs/liltoon/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "liltoon/translate-your-site",
+              "path": "/FUD/docs/liltoon/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "MA/manage-docs-versions",
+              "path": "/FUD/docs/MA/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "MA/translate-your-site",
+              "path": "/FUD/docs/MA/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "physbone",
               "path": "/FUD/docs/physbone",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "poiyomi/manage-docs-versions",
+              "path": "/FUD/docs/poiyomi/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "poiyomi/translate-your-site",
+              "path": "/FUD/docs/poiyomi/translate-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -61,6 +121,36 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "VRCFury/manage-docs-versions",
+              "path": "/FUD/docs/VRCFury/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "VRCFury/translate-your-site",
+              "path": "/FUD/docs/VRCFury/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "テクスチャ解説/manage-docs-versions",
+              "path": "/FUD/docs/テクスチャ解説/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "テクスチャ解説/translate-your-site",
+              "path": "/FUD/docs/テクスチャ解説/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "パーティクル/manage-docs-versions",
+              "path": "/FUD/docs/パーティクル/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "パーティクル/translate-your-site",
+              "path": "/FUD/docs/パーティクル/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/tutorial---basics",
               "path": "/FUD/docs/category/tutorial---basics",
               "sidebar": "tutorialSidebar"
@@ -68,6 +158,51 @@
             {
               "id": "/category/tutorial---extras",
               "path": "/FUD/docs/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras-1",
+              "path": "/FUD/docs/category/tutorial---extras-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras-2",
+              "path": "/FUD/docs/category/tutorial---extras-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras-3",
+              "path": "/FUD/docs/category/tutorial---extras-3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras-4",
+              "path": "/FUD/docs/category/tutorial---extras-4",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras-5",
+              "path": "/FUD/docs/category/tutorial---extras-5",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras-6",
+              "path": "/FUD/docs/category/tutorial---extras-6",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras-7",
+              "path": "/FUD/docs/category/tutorial---extras-7",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras-8",
+              "path": "/FUD/docs/category/tutorial---extras-8",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras-9",
+              "path": "/FUD/docs/category/tutorial---extras-9",
               "sidebar": "tutorialSidebar"
             }
           ],

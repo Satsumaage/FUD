@@ -1,0 +1,27 @@
+{
+  "id": "MA/translate-your-site",
+  "title": "Translate your site",
+  "description": "Let's translate docs/intro.md to French.",
+  "source": "@site/docs/MA/translate-your-site.md",
+  "sourceDirName": "MA",
+  "slug": "/MA/translate-your-site",
+  "permalink": "/FUD/docs/MA/translate-your-site",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Satsumaage/FUD/edit/main/docs/MA/translate-your-site.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manage Docs Versions",
+    "permalink": "/FUD/docs/MA/manage-docs-versions"
+  },
+  "next": {
+    "title": "Tutorial - Extras",
+    "permalink": "/FUD/docs/category/tutorial---extras-4"
+  }
+}

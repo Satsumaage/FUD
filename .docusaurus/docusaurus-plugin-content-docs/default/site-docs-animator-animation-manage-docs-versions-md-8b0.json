@@ -1,0 +1,27 @@
+{
+  "id": "Animator,Animation/manage-docs-versions",
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs/Animator,Animation/manage-docs-versions.md",
+  "sourceDirName": "Animator,Animation",
+  "slug": "/Animator,Animation/manage-docs-versions",
+  "permalink": "/FUD/docs/Animator,Animation/manage-docs-versions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Satsumaage/FUD/edit/main/docs/Animator,Animation/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorial - Extras",
+    "permalink": "/FUD/docs/category/tutorial---extras"
+  },
+  "next": {
+    "title": "Animator,Animation",
+    "permalink": "/FUD/docs/Animator,Animation/translate-your-site"
+  }
+}

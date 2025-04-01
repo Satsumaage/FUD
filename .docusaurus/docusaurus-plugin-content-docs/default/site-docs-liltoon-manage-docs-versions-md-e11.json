@@ -1,0 +1,27 @@
+{
+  "id": "liltoon/manage-docs-versions",
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "source": "@site/docs/liltoon/manage-docs-versions.md",
+  "sourceDirName": "liltoon",
+  "slug": "/liltoon/manage-docs-versions",
+  "permalink": "/FUD/docs/liltoon/manage-docs-versions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Satsumaage/FUD/edit/main/docs/liltoon/manage-docs-versions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorial - Extras",
+    "permalink": "/FUD/docs/category/tutorial---extras-5"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/FUD/docs/liltoon/translate-your-site"
+  }
+}
