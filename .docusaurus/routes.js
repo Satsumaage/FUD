@@ -79,15 +79,15 @@ export default [
   },
   {
     path: '/FUD/docs',
-    component: ComponentCreator('/FUD/docs', '95b'),
+    component: ComponentCreator('/FUD/docs', '0a1'),
     routes: [
       {
         path: '/FUD/docs',
-        component: ComponentCreator('/FUD/docs', 'fdd'),
+        component: ComponentCreator('/FUD/docs', 'cbb'),
         routes: [
           {
             path: '/FUD/docs',
-            component: ComponentCreator('/FUD/docs', '3a6'),
+            component: ComponentCreator('/FUD/docs', 'a39'),
             routes: [
               {
                 path: '/FUD/docs/category/tutorial---basics',
@@ -104,6 +104,12 @@ export default [
               {
                 path: '/FUD/docs/intro',
                 component: ComponentCreator('/FUD/docs/intro', '8f7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/physbone',
+                component: ComponentCreator('/FUD/docs/physbone', '071'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

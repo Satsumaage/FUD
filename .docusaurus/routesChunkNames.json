@@ -206,17 +206,17 @@
     },
     "content": "393be207"
   },
-  "/FUD/docs-95b": {
+  "/FUD/docs-0a1": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/FUD/docs-fdd": {
+  "/FUD/docs-cbb": {
     "__comp": "a7bd4aaa",
     "__props": "bb009bc6"
   },
-  "/FUD/docs-3a6": {
+  "/FUD/docs-a39": {
     "__comp": "a94703ab"
   },
   "/FUD/docs/category/tutorial---basics-ebf": {
@@ -230,6 +230,10 @@
   "/FUD/docs/intro-8f7": {
     "__comp": "17896441",
     "content": "0e384e19"
+  },
+  "/FUD/docs/physbone-071": {
+    "__comp": "17896441",
+    "content": "847bb672"
   },
   "/FUD/docs/tutorial-basics/congratulations-25b": {
     "__comp": "17896441",

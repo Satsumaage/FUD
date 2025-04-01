@@ -16,6 +16,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "physbone",
+              "path": "/FUD/docs/physbone",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/congratulations",
               "path": "/FUD/docs/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
