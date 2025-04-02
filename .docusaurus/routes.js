@@ -79,15 +79,15 @@ export default [
   },
   {
     path: '/FUD/docs',
-    component: ComponentCreator('/FUD/docs', 'fbd'),
+    component: ComponentCreator('/FUD/docs', '6d9'),
     routes: [
       {
         path: '/FUD/docs',
-        component: ComponentCreator('/FUD/docs', 'd9b'),
+        component: ComponentCreator('/FUD/docs', '3c7'),
         routes: [
           {
             path: '/FUD/docs',
-            component: ComponentCreator('/FUD/docs', 'd6a'),
+            component: ComponentCreator('/FUD/docs', 'e26'),
             routes: [
               {
                 path: '/FUD/docs/Animator,Animation/manage-docs-versions',
@@ -180,6 +180,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/FUD/docs/constraint',
+                component: ComponentCreator('/FUD/docs/constraint', '677'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/FUD/docs/GIMP/manage-docs-versions',
                 component: ComponentCreator('/FUD/docs/GIMP/manage-docs-versions', '3c9'),
                 exact: true,
@@ -236,6 +242,12 @@ export default [
               {
                 path: '/FUD/docs/poiyomi/translate-your-site',
                 component: ComponentCreator('/FUD/docs/poiyomi/translate-your-site', '2b5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/Quest',
+                component: ComponentCreator('/FUD/docs/Quest', '09f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -320,6 +332,12 @@ export default [
               {
                 path: '/FUD/docs/パーティクル/translate-your-site',
                 component: ComponentCreator('/FUD/docs/パーティクル/translate-your-site', 'cf1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/軽量化',
+                component: ComponentCreator('/FUD/docs/軽量化', '2c5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

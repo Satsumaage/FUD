@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/FUD/docs",
-          "mainDocId": "intro",
+          "mainDocId": "Quest",
           "docs": [
             {
               "id": "Animator,Animation/manage-docs-versions",
@@ -28,6 +28,11 @@
             {
               "id": "Blender/translate-your-site",
               "path": "/FUD/docs/Blender/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "constraint",
+              "path": "/FUD/docs/constraint",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -78,6 +83,11 @@
             {
               "id": "poiyomi/translate-your-site",
               "path": "/FUD/docs/poiyomi/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Quest",
+              "path": "/FUD/docs/Quest",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -151,6 +161,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "軽量化",
+              "path": "/FUD/docs/軽量化",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/tutorial---basics",
               "path": "/FUD/docs/category/tutorial---basics",
               "sidebar": "tutorialSidebar"
@@ -210,8 +225,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/FUD/docs/intro",
-                "label": "intro"
+                "path": "/FUD/docs/Quest",
+                "label": "Quest"
               }
             }
           }

@@ -1,0 +1,23 @@
+{
+  "id": "Quest",
+  "title": "Quest対応について書くところ",
+  "description": "たいとる",
+  "source": "@site/docs/Quest.md",
+  "sourceDirName": ".",
+  "slug": "/Quest",
+  "permalink": "/FUD/docs/Quest",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Satsumaage/FUD/edit/main/docs/Quest.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "constraintについて書くところ",
+    "permalink": "/FUD/docs/constraint"
+  }
+}

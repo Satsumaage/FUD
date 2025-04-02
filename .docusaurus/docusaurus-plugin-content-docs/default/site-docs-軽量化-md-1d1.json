@@ -1,0 +1,27 @@
+{
+  "id": "軽量化",
+  "title": "軽量化について書くところ",
+  "description": "たいとる",
+  "source": "@site/docs/軽量化.md",
+  "sourceDirName": ".",
+  "slug": "/軽量化",
+  "permalink": "/FUD/docs/軽量化",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Satsumaage/FUD/edit/main/docs/軽量化.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "physboneについて書くところ",
+    "permalink": "/FUD/docs/physbone"
+  },
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/FUD/docs/category/tutorial---basics"
+  }
+}
