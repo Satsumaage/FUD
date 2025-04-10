@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.7.0">
 <title data-rh="true">MainModule | FxxkUnityDocs</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://satsumaage.github.io/FUD/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://satsumaage.github.io/FUD/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://satsumaage.github.io/FUD/docs/パーティクル/MainModule"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="MainModule | FxxkUnityDocs"><meta data-rh="true" name="description" content="Main Module"><meta data-rh="true" property="og:description" content="Main Module"><link data-rh="true" rel="icon" href="/FUD/img/Ufavicon.ico"><link data-rh="true" rel="canonical" href="https://satsumaage.github.io/FUD/docs/パーティクル/MainModule"><link data-rh="true" rel="alternate" href="https://satsumaage.github.io/FUD/docs/パーティクル/MainModule" hreflang="en"><link data-rh="true" rel="alternate" href="https://satsumaage.github.io/FUD/docs/パーティクル/MainModule" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/FUD/blog/rss.xml" title="FxxkUnityDocs RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/FUD/blog/atom.xml" title="FxxkUnityDocs Atom Feed"><link rel="stylesheet" href="/FUD/assets/css/styles.b8d2aa6b.css">
-<script src="/FUD/assets/js/runtime~main.c5ace6d6.js" defer="defer"></script>
+<script src="/FUD/assets/js/runtime~main.9225c915.js" defer="defer"></script>
 <script src="/FUD/assets/js/main.2344a2b6.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -13,78 +13,78 @@
 <p>Main Moduleってなんやねん</p>
 <p><img decoding="async" loading="lazy" alt="module" src="/FUD/assets/images/MainModule-f9f0fba22b7628374ecfaf9fd3e3b2e7.png" width="521" height="413" class="img_ev3q"><br>
 <!-- -->↑こいつのこと</p>
-<h1>Duration</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="duration">Duration<a href="#duration" class="hash-link" aria-label="Direct link to Duration" title="Direct link to Duration">​</a></h2>
 <p>デフォルト 5(秒)<br>
 <!-- -->設定できる範囲 0.05~100,000</p>
 <p><strong>パーティクルが何秒間出続けるか設定するところ</strong><br>
 <!-- -->デフォルトで後述のLoopingにチェックが入ってるからチェック外したら違いがわかりやすい<br>
 <!-- -->〇〇 over Lifetimeとかの指定がない状態の横軸は基本ここ</p>
-<h1>Looping</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="looping">Looping<a href="#looping" class="hash-link" aria-label="Direct link to Looping" title="Direct link to Looping">​</a></h2>
 <p>デフォルト ON</p>
 <p>名前の通り<br>
 <!-- -->Durationで設定した時間が終わったらもう一回最初から再生してくれる<br>
 <strong>永遠にパーティクル出してくれる</strong>ってｺﾄ</p>
-<h1>Prewarm</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="prewarm">Prewarm<a href="#prewarm" class="hash-link" aria-label="Direct link to Prewarm" title="Direct link to Prewarm">​</a></h2>
 <p>デフォルト OFF</p>
 <p>LoopingをONにしていないと使えない<br>
 <!-- -->ONにすると<strong>再生したときにループ2回目の状態から再生してくれるやつ</strong><br>
 <!-- -->再生するとわかるけどOFFのときは原点からパーティクルでるのに対してONは元々再生してましたけど？って感じで原点からパーティクルが既に出てる状態でパーティクルが出せる</p>
-<h1>Start Delay</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="start-delay">Start Delay<a href="#start-delay" class="hash-link" aria-label="Direct link to Start Delay" title="Direct link to Start Delay">​</a></h2>
 <p>デフォルト 0(秒)<br>
 <!-- -->設定できる範囲 0~3.402823e+38</p>
 <p>PrewarmがOFFにしていないと使えない<br>
 <!-- -->名前の通り<strong>スタートに遅延がかけれるやつ</strong><br>
 <!-- -->オブジェクト本体がアクティブになってから(厳密には違うらしいけどわからん)何秒後からパーティクルを出すか決めれる<br>
 <!-- -->複数のParticle Systemを組み合わせてエフェクト作る時によく使うらしい</p>
-<h1>Start Lifetime</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="start-lifetime">Start Lifetime<a href="#start-lifetime" class="hash-link" aria-label="Direct link to Start Lifetime" title="Direct link to Start Lifetime">​</a></h2>
 <p>デフォルト 5(秒)<br>
 <!-- -->設定できる範囲 0.0001~3.402823e+38</p>
 <p><strong>パーティクル1つ1つの寿命が設定できるやつ</strong><br>
 <!-- -->じゃあべつにLifetimeって名前でよくね？って思うけどこれCollisionの項目で衝突する毎にどれくらい寿命が減るかっていうのが弄れるらしい、他にもsub emitterにも関係があるとか<br>
 <!-- -->だから寿命の初期設定をする項目って意味でStart Lifetimeって名前なんだろうね、多分</p>
-<h1>Start Speed</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="start-speed">Start Speed<a href="#start-speed" class="hash-link" aria-label="Direct link to Start Speed" title="Direct link to Start Speed">​</a></h2>
 <p>デフォルト 5(m/秒)<br>
 <!-- -->設定できる範囲 -100,000~100,000</p>
 <p><strong>パーティクルが出てきた時のスピードが設定できるやつ</strong><br>
 <!-- -->シンプルだね</p>
-<h1>3D Start Size</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3d-start-size">3D Start Size<a href="#3d-start-size" class="hash-link" aria-label="Direct link to 3D Start Size" title="Direct link to 3D Start Size">​</a></h2>
 <p>デフォルト OFF</p>
 <p>触るとわかるけど<strong>パーティクル1つ1つのスケールをXYZ個別で設定できるやつ</strong></p>
-<h1>Start Size</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="start-size">Start Size<a href="#start-size" class="hash-link" aria-label="Direct link to Start Size" title="Direct link to Start Size">​</a></h2>
 <p>デフォルト 1(倍)<br>
 <!-- -->設定できる範囲 0~100,000</p>
 <p>3D Start SizeがOFFの時しか設定が出来ない<br>
 <!-- -->こっちは3D Start Sizeとは違って<strong>スケールのXYZを共通の値でサイズ設定ができる</strong><br>
 <!-- -->形変える気ないならこっちの方が楽だしいいかも？</p>
-<h1>3D Start Rotation</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3d-start-rotation">3D Start Rotation<a href="#3d-start-rotation" class="hash-link" aria-label="Direct link to 3D Start Rotation" title="Direct link to 3D Start Rotation">​</a></h2>
 <p>デフォルト OFF</p>
 <p>触るとわかるけど<strong>パーティクル1つ1つの角度を何度傾けるかXYZ個別で設定できるやつ</strong></p>
-<h1>Start Rotation</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="start-rotation">Start Rotation<a href="#start-rotation" class="hash-link" aria-label="Direct link to Start Rotation" title="Direct link to Start Rotation">​</a></h2>
 <p>デフォルト 0(度)<br>
 <!-- -->設定できる範囲 -100,000~100,000</p>
 <p>3D Rotation SizeがOFFの時しか設定が出来ない<br>
 <!-- -->こっちは3D Rotation Sizeとは違って<strong>角度のXYZを共通の値でどのくらい傾けるかの設定ができる</strong><br>
 <!-- -->時計回りで傾く</p>
-<h1>Flip Rotation</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="flip-rotation">Flip Rotation<a href="#flip-rotation" class="hash-link" aria-label="Direct link to Flip Rotation" title="Direct link to Flip Rotation">​</a></h2>
 <p>デフォルト 0(%)<br>
 <!-- -->設定できる範囲 0~1</p>
 <p>100%を1として<strong>どのくらいの割合のパーティクルが左右反転してでてくるか設定できるやつ</strong><br>
 <!-- -->左右非対称なパーティクルに使うといい感じになるらしいよ</p>
-<h1>Start Color</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="start-color">Start Color<a href="#start-color" class="hash-link" aria-label="Direct link to Start Color" title="Direct link to Start Color">​</a></h2>
 <p>デフォルト RGBA(255,255,255,1)</p>
 <p><strong>パーティクルが出てきたときの色</strong><br>
 <!-- -->頂点カラーを使用しているらしい</p>
-<h1>Gravity Source</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="gravity-source">Gravity Source<a href="#gravity-source" class="hash-link" aria-label="Direct link to Gravity Source" title="Direct link to Gravity Source">​</a></h2>
 <p>デフォルト 3D Physics<br>
 <!-- -->選択できるもの 3D Physics, 2D Physics</p>
 <p><strong>そもそもVRCって3Dだし弄る必要ないんじゃね？</strong><br>
 <!-- -->一応Unity Documentationには2D または 3D 物理システムからの重力強度を使用するかどうかを指定する所って書いてあるけどまあ気にしなくてよし、3DゲームのVRCだし。</p>
-<h1>Gravity Modifier</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="gravity-modifier">Gravity Modifier<a href="#gravity-modifier" class="hash-link" aria-label="Direct link to Gravity Modifier" title="Direct link to Gravity Modifier">​</a></h2>
 <p>デフォルト 0(倍)<br>
 <!-- -->設定できる範囲 -100,000~100,000</p>
 <p><strong>重力の影響をどのくらい受けるか設定できるやつ</strong><br>
 <!-- -->ワールドの重力設定によって変化しちゃうから基本的にForce over Lifetimeでいじるらしい</p>
-<h1>Simulation Space</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="simulation-space">Simulation Space<a href="#simulation-space" class="hash-link" aria-label="Direct link to Simulation Space" title="Direct link to Simulation Space">​</a></h2>
 <p>デフォルト Local<br>
 <!-- -->選択できるもの Local, World, Custom</p>
 <p><strong>パーティクルを親オブジェクトのローカル座標で動かすかワールド座標で動かすか設定できるやつ</strong><br>
@@ -93,42 +93,42 @@
 <strong>オブジェクトに動きがあるものはWorld、ないものはLocal</strong>でよさそう<br>
 <!-- -->Customにすると追従先が選択できる、追従先の座標が動いたときにパーティクルも一緒に少し動くっぽい？
 細かいことはわからん</p>
-<h1>Simulation Speed</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="simulation-speed">Simulation Speed<a href="#simulation-speed" class="hash-link" aria-label="Direct link to Simulation Speed" title="Direct link to Simulation Speed">​</a></h2>
 <p>デフォルト 1(倍)<br>
 <!-- -->設定できる範囲 0~100</p>
 <p><strong>パーティクルの動きやら放出速度やら全ての動きに対して倍率の設定ができるやつ</strong><br>
 <!-- -->数値が小さくなると負荷が大きくなって数値を大きくすると軽くなるんだって<br>
 <!-- -->パーティクル出てる状態でアニメーションとかで数値0にすると今出てるパーティクルがその場で停止できるから上手く使えばいい感じに表現できるんじゃない？しらんけど</p>
-<h1>Delta Time</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="delta-time">Delta Time<a href="#delta-time" class="hash-link" aria-label="Direct link to Delta Time" title="Direct link to Delta Time">​</a></h2>
 <p>デフォルト Scaled</p>
 <p><strong>VRCではまず使わないらしい</strong><br>
 <!-- -->Time Scaledの値を使用するかどうか決めるやつらしい、使わないらしいし気にする必要なし</p>
-<h1>Scaling Mode</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="scaling-mode">Scaling Mode<a href="#scaling-mode" class="hash-link" aria-label="Direct link to Scaling Mode" title="Direct link to Scaling Mode">​</a></h2>
 <p>デフォルト Local<br>
 <!-- -->選択できるもの Local, Hierarchy, Shape</p>
 <p><strong>Particle System全体のスケールとパーティクル1つ1つのサイズがどこのTransformに依存するか決めれるところ</strong><br>
 <!-- -->Localだとこのオブジェクトのみ、Hierarchyにすると親のオブジェクトも、ShapeにするとShapeにのみTransformが影響しパーティクルのサイズ自体は変わらない</p>
-<h1>Play On Awake</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="play-on-awake">Play On Awake<a href="#play-on-awake" class="hash-link" aria-label="Direct link to Play On Awake" title="Direct link to Play On Awake">​</a></h2>
 <p>デフォルト ON</p>
 <p><strong>オブジェクトがアクティブになったときにパーティクルを再生させるか決めるやつ</strong><br>
 <!-- -->アバターやらパーティクルライブで使う分には全く使わないんだって</p>
-<h1>Emitter Velocity</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="emitter-velocity">Emitter Velocity<a href="#emitter-velocity" class="hash-link" aria-label="Direct link to Emitter Velocity" title="Direct link to Emitter Velocity">​</a></h2>
 <p>デフォルト Rigidbody<br>
 <!-- -->選択できるもの Transform, Rigidbody, Custom</p>
 <p><strong>粒子の速度の計算方法の指定ができるらしい</strong><br>
 <!-- -->Rigidbodyを選択するとそれを元に速度計算、Transformで発生源の位置の変化で計算するらしい<br>
 <!-- -->Rate over DistanceとInherit Velocityに使う計算方法をここで指定してるんだってさ<br>
 <!-- -->おまけだけどRigidbodyって剛体って意味らしいよ、物理演算云々のやつらしい</p>
-<h1>Max Particles</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="max-particles">Max Particles<a href="#max-particles" class="hash-link" aria-label="Direct link to Max Particles" title="Direct link to Max Particles">​</a></h2>
 <p>デフォルト 1000(個)<br>
 <!-- -->選択できる範囲 0~2,147,483,647</p>
 <p><strong>同時にでるパーティクルの上限を決めるやつ</strong><br>
 <!-- -->パーティクルの数が上限に達したら古いものから消えていく</p>
-<h1>Random Seed</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="random-seed">Random Seed<a href="#random-seed" class="hash-link" aria-label="Direct link to Random Seed" title="Direct link to Random Seed">​</a></h2>
 <p>デフォルト ON</p>
 <p><strong>基本ONのままでいい</strong><br>
 <!-- -->OFFにするとRandomSeedの項目が出てきてパーティクルの出方をseed値で固定出来る、右のReseedを押すとランダムでseed値を出してくれる</p>
-<h1>Stop Action</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="stop-action">Stop Action<a href="#stop-action" class="hash-link" aria-label="Direct link to Stop Action" title="Direct link to Stop Action">​</a></h2>
 <p>デフォルト None<br>
 <!-- -->選択できるもの None, Disable, Destroy, Callback</p>
 <p><strong>パーティクルの再生が終わった時にどういう動作をするか選ぶやつ</strong><br>
@@ -137,12 +137,12 @@
 <!-- -->名前の通りNoneはなにもしない、DisableはParticle Systemのオブジェクトを非アクティブ化する<br>
 <!-- -->DestroyでParticle Systemのオブジェクトを破壊(!?)する、破壊ってなに?<br>
 <!-- -->CallbackはParticleSystemのオブジェクトにアタッチされたMonoBehaviourのOnParticleSystemStoppedコールバックを呼ぶ、これ使うと細かい終了判定ができるけどコード書けないと使えないよ～～ん</p>
-<h1>Culling Mode</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="culling-mode">Culling Mode<a href="#culling-mode" class="hash-link" aria-label="Direct link to Culling Mode" title="Direct link to Culling Mode">​</a></h2>
 <p>デフォルト Automatic<br>
 <!-- -->選択できるもの Automatic, Pause and catch-up, Pause, Always Simulate</p>
 <p><strong>パーティクル全体のが画面外にある時パーティクルの再生をどうするかきめるやつ</strong><br>
 <!-- -->基本はAutomaticでいいけどたまに変えることがあるらしい、どういうときに変えるのかイマイチわからん</p>
-<h1>Ring Buffer Mode</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ring-buffer-mode">Ring Buffer Mode<a href="#ring-buffer-mode" class="hash-link" aria-label="Direct link to Ring Buffer Mode" title="Direct link to Ring Buffer Mode">​</a></h2>
 <p>デフォルト Disabled<br>
 <!-- -->選択できるもの Disabled, Pause Until Replaced, Loop Until Replaced</p>
 <p><strong>Max Particlesに設定した値までパーティクルが出続けるか決めるやつ</strong><br>
@@ -152,11 +152,11 @@
 <!-- -->Pause Until ReplacedはLifetimeを超えたパーティクルの〇〇 over Lifetime等の最後の状態を維持<br>
 <!-- -->Loop Until Replacedはパーティクルが存在してる間は指定した範囲のアニメーションを再生し続け、
 上限に達して消えるパーティクルは最後までアニメーションが再生される(つまり上限を超えたパーティクルが存在することになる)</p>
-<h1>参考</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="参考">参考<a href="#参考" class="hash-link" aria-label="Direct link to 参考" title="Direct link to 参考">​</a></h2>
 <p><a href="https://qiita.com/abcde_kind/items/82cddca8be2917c0bded" target="_blank" rel="noopener noreferrer">VRChatプレイヤーによるParticle System解説 ～Main Module編～</a><br>
 <a href="https://docs.unity3d.com/ja/2022.1/ScriptReference/ParticleSystem.MainModule-gravitySource.html" target="_blank" rel="noopener noreferrer">UnityDocumantation</a><br>
 <a href="https://torisan-net.com/blog/2677" target="_blank" rel="noopener noreferrer">【Unity】Particle System の「Simulation Space」</a><br>
-<a href="https://walkable-2020.com/unity/particlesystem-main-module/#toc27" target="_blank" rel="noopener noreferrer">パーティクルメインモジュールの全項目を映像付きで徹底解説します!［Unity］</a><br>
-<a href="https://mackysoft.net/particlesystem-stopaction/" target="_blank" rel="noopener noreferrer">ParticleSystemの再生の終了判定（StopAction）【Unity】</a></p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/Satsumaage/FUD/edit/main/docs/パーティクル/MainModule.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/FUD/docs/category/パーティクル"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">パーティクル</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/FUD/docs/パーティクル/translate-your-site"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Translate your site</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#main-module" class="table-of-contents__link toc-highlight">Main Module</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/FUD/docs/intro">Tutorial</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.gg/9VvYuXRvxs" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://x.com/VR_gasaki" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/FUD/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/Satsumaage" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 ryugasaki sui. Built with Docusaurus.</div></div></div></footer></div>
+<a href="https://walkable-2020.com/unity/particlesystem-main-module/##toc27" target="_blank" rel="noopener noreferrer">パーティクルメインモジュールの全項目を映像付きで徹底解説します!［Unity］</a><br>
+<a href="https://mackysoft.net/particlesystem-stopaction/" target="_blank" rel="noopener noreferrer">ParticleSystemの再生の終了判定（StopAction）【Unity】</a></p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/Satsumaage/FUD/edit/main/docs/パーティクル/MainModule.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/FUD/docs/category/パーティクル"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">パーティクル</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/FUD/docs/パーティクル/translate-your-site"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Translate your site</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#main-module" class="table-of-contents__link toc-highlight">Main Module</a></li><li><a href="#duration" class="table-of-contents__link toc-highlight">Duration</a></li><li><a href="#looping" class="table-of-contents__link toc-highlight">Looping</a></li><li><a href="#prewarm" class="table-of-contents__link toc-highlight">Prewarm</a></li><li><a href="#start-delay" class="table-of-contents__link toc-highlight">Start Delay</a></li><li><a href="#start-lifetime" class="table-of-contents__link toc-highlight">Start Lifetime</a></li><li><a href="#start-speed" class="table-of-contents__link toc-highlight">Start Speed</a></li><li><a href="#3d-start-size" class="table-of-contents__link toc-highlight">3D Start Size</a></li><li><a href="#start-size" class="table-of-contents__link toc-highlight">Start Size</a></li><li><a href="#3d-start-rotation" class="table-of-contents__link toc-highlight">3D Start Rotation</a></li><li><a href="#start-rotation" class="table-of-contents__link toc-highlight">Start Rotation</a></li><li><a href="#flip-rotation" class="table-of-contents__link toc-highlight">Flip Rotation</a></li><li><a href="#start-color" class="table-of-contents__link toc-highlight">Start Color</a></li><li><a href="#gravity-source" class="table-of-contents__link toc-highlight">Gravity Source</a></li><li><a href="#gravity-modifier" class="table-of-contents__link toc-highlight">Gravity Modifier</a></li><li><a href="#simulation-space" class="table-of-contents__link toc-highlight">Simulation Space</a></li><li><a href="#simulation-speed" class="table-of-contents__link toc-highlight">Simulation Speed</a></li><li><a href="#delta-time" class="table-of-contents__link toc-highlight">Delta Time</a></li><li><a href="#scaling-mode" class="table-of-contents__link toc-highlight">Scaling Mode</a></li><li><a href="#play-on-awake" class="table-of-contents__link toc-highlight">Play On Awake</a></li><li><a href="#emitter-velocity" class="table-of-contents__link toc-highlight">Emitter Velocity</a></li><li><a href="#max-particles" class="table-of-contents__link toc-highlight">Max Particles</a></li><li><a href="#random-seed" class="table-of-contents__link toc-highlight">Random Seed</a></li><li><a href="#stop-action" class="table-of-contents__link toc-highlight">Stop Action</a></li><li><a href="#culling-mode" class="table-of-contents__link toc-highlight">Culling Mode</a></li><li><a href="#ring-buffer-mode" class="table-of-contents__link toc-highlight">Ring Buffer Mode</a></li><li><a href="#参考" class="table-of-contents__link toc-highlight">参考</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/FUD/docs/intro">Tutorial</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.gg/9VvYuXRvxs" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://x.com/VR_gasaki" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/FUD/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/Satsumaage" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 ryugasaki sui. Built with Docusaurus.</div></div></div></footer></div>
 </body>
 </html>
