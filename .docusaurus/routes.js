@@ -79,15 +79,15 @@ export default [
   },
   {
     path: '/FUD/docs',
-    component: ComponentCreator('/FUD/docs', '6d9'),
+    component: ComponentCreator('/FUD/docs', '0a4'),
     routes: [
       {
         path: '/FUD/docs',
-        component: ComponentCreator('/FUD/docs', '3c7'),
+        component: ComponentCreator('/FUD/docs', 'adf'),
         routes: [
           {
             path: '/FUD/docs',
-            component: ComponentCreator('/FUD/docs', 'e26'),
+            component: ComponentCreator('/FUD/docs', 'eea'),
             routes: [
               {
                 path: '/FUD/docs/Animator,Animation/manage-docs-versions',
@@ -324,8 +324,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/FUD/docs/パーティクル/manage-docs-versions',
-                component: ComponentCreator('/FUD/docs/パーティクル/manage-docs-versions', 'fe0'),
+                path: '/FUD/docs/パーティクル/MainModule',
+                component: ComponentCreator('/FUD/docs/パーティクル/MainModule', 'd50'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

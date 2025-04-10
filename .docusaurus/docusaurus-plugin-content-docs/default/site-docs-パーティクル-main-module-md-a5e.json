@@ -1,0 +1,27 @@
+{
+  "id": "パーティクル/MainModule",
+  "title": "MainModule",
+  "description": "Main Module",
+  "source": "@site/docs/パーティクル/MainModule.md",
+  "sourceDirName": "パーティクル",
+  "slug": "/パーティクル/MainModule",
+  "permalink": "/FUD/docs/パーティクル/MainModule",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Satsumaage/FUD/edit/main/docs/パーティクル/MainModule.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "パーティクル",
+    "permalink": "/FUD/docs/category/パーティクル"
+  },
+  "next": {
+    "title": "Translate your site",
+    "permalink": "/FUD/docs/パーティクル/translate-your-site"
+  }
+}
