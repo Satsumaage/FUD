@@ -70,4 +70,4 @@ Start Delayと同じ感じ？多分
 # 参考
 [VRChatプレイヤーによるParticle System解説 ～Emission Module編～](https://qiita.com/abcde_kind/items/63e8c262df7774f12a41)  
 [UnityのParticle Systemの基礎を理解する - ぷるぷるの雑記](https://prupru-prune.hatenablog.com/entry/2022/02/11/191042)  
-[Unity Documentation](https://docs.unity3d.com/ja/2022.3/Manual/PartSysEmissionModule.html)
+[Unity Documentation](https://docs.unity3d.com/ja/2022.3/Manual/PartSysEmissionModule.html)a
