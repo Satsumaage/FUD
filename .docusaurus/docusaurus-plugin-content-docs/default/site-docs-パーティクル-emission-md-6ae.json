@@ -1,7 +1,7 @@
 {
   "id": "パーティクル/Emission",
-  "title": "Translate your site",
-  "description": "Let's translate docs/intro.md to French.",
+  "title": "Emission",
+  "description": "Emission",
   "source": "@site/docs/パーティクル/Emission.md",
   "sourceDirName": "パーティクル",
   "slug": "/パーティクル/Emission",
