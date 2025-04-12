@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfud=self.webpackChunkfud||[]).push([[3924],{3288:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/FUD/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
