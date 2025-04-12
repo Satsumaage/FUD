@@ -192,7 +192,7 @@ OFFにするとRandomSeedの項目が出てきてパーティクルの出方をs
 
 ## Stop Action
 
-デフォルト <code>None</ode>  
+デフォルト <code>None</code>  
 選択できるもの <code>None, Disable, Destroy, Callback</code>  
   
 **パーティクルの再生が終わった時にどういう動作をするか選ぶやつ**  
