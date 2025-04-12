@@ -79,15 +79,15 @@ export default [
   },
   {
     path: '/FUD/docs',
-    component: ComponentCreator('/FUD/docs', '0a4'),
+    component: ComponentCreator('/FUD/docs', 'd82'),
     routes: [
       {
         path: '/FUD/docs',
-        component: ComponentCreator('/FUD/docs', 'adf'),
+        component: ComponentCreator('/FUD/docs', 'd80'),
         routes: [
           {
             path: '/FUD/docs',
-            component: ComponentCreator('/FUD/docs', 'eea'),
+            component: ComponentCreator('/FUD/docs', '997'),
             routes: [
               {
                 path: '/FUD/docs/Animator,Animation/manage-docs-versions',
@@ -320,6 +320,12 @@ export default [
               {
                 path: '/FUD/docs/テクスチャ解説/translate-your-site',
                 component: ComponentCreator('/FUD/docs/テクスチャ解説/translate-your-site', 'fb3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/FUD/docs/パーティクル/Emission',
+                component: ComponentCreator('/FUD/docs/パーティクル/Emission', '249'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

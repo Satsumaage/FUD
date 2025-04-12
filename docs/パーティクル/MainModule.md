@@ -12,7 +12,7 @@ Main Moduleってなんやねん
 ## Duration
 
 デフォルト <code>5(秒)</code>  
-設定できる範囲 0.05~100,000  
+設定できる範囲 <code>0.05~100,000</code>  
   
 **パーティクルが何秒間出続けるか設定するところ**  
 デフォルトで後述のLoopingにチェックが入ってるからチェック外したら違いがわかりやすい  
@@ -20,7 +20,7 @@ Main Moduleってなんやねん
 
 ## Looping
 
-デフォルト ON  
+デフォルト <code>ON</code>  
   
 名前の通り  
 Durationで設定した時間が終わったらもう一回最初から再生してくれる  
@@ -28,7 +28,7 @@ Durationで設定した時間が終わったらもう一回最初から再生し
 
 ## Prewarm
 
-デフォルト OFF  
+デフォルト <code>OFF</code>  
   
 LoopingをONにしていないと使えない  
 ONにすると**再生したときにループ2回目の状態から再生してくれるやつ**  
@@ -36,8 +36,8 @@ ONにすると**再生したときにループ2回目の状態から再生して
 
 ## Start Delay
 
-デフォルト 0(秒)  
-設定できる範囲 0~3.402823e+38  
+デフォルト <code>0(秒)</code>  
+設定できる範囲 <code>0~3.402823e+38</code>  
   
 PrewarmがOFFにしていないと使えない  
 名前の通り**スタートに遅延がかけれるやつ**  
@@ -46,7 +46,7 @@ PrewarmがOFFにしていないと使えない
 
 ## Start Lifetime
 
-デフォルト 5(秒)  
+デフォルト <code>5(秒)</code>  
 設定できる範囲 0.0001~3.402823e+38  
 
 **パーティクル1つ1つの寿命が設定できるやつ**  
@@ -55,22 +55,22 @@ PrewarmがOFFにしていないと使えない
 
 ## Start Speed
 
-デフォルト 5(m/秒)  
-設定できる範囲 -100,000~100,000  
+デフォルト <code>5(m/秒)</code>  
+設定できる範囲 <code>-100,000~100,000</code>  
   
 **パーティクルが出てきた時のスピードが設定できるやつ**  
 シンプルだね
 
 ## 3D Start Size
 
-デフォルト OFF  
+デフォルト <code>OFF</code>  
   
 触るとわかるけど**パーティクル1つ1つのスケールをXYZ個別で設定できるやつ**
 
 ## Start Size
 
-デフォルト 1(倍)  
-設定できる範囲 0~100,000  
+デフォルト <code>1(倍)</code>  
+設定できる範囲 <code>0~100,000</code>  
   
 3D Start SizeがOFFの時しか設定が出来ない  
 こっちは3D Start Sizeとは違って**スケールのXYZを共通の値でサイズ設定ができる**  
@@ -78,14 +78,14 @@ PrewarmがOFFにしていないと使えない
 
 ## 3D Start Rotation
 
-デフォルト OFF  
+デフォルト <code>OFF</code>  
   
 触るとわかるけど**パーティクル1つ1つの角度を何度傾けるかXYZ個別で設定できるやつ**
 
 ## Start Rotation
 
-デフォルト 0(度)  
-設定できる範囲 -100,000~100,000  
+デフォルト <code>0(度)</code>  
+設定できる範囲 <code>-100,000~100,000</code>  
   
 3D Rotation SizeがOFFの時しか設定が出来ない  
 こっちは3D Rotation Sizeとは違って**角度のXYZを共通の値でどのくらい傾けるかの設定ができる**  
@@ -93,39 +93,39 @@ PrewarmがOFFにしていないと使えない
 
 ## Flip Rotation
 
-デフォルト 0(%)  
-設定できる範囲 0~1  
+デフォルト <code>0(%)</code>  
+設定できる範囲 <code>0~1</code>  
   
 100%を1として**どのくらいの割合のパーティクルが左右反転してでてくるか設定できるやつ**  
 左右非対称なパーティクルに使うといい感じになるらしいよ
 
 ## Start Color
 
-デフォルト RGBA(255,255,255,1)  
+デフォルト <code>RGBA(255,255,255,1)</code>  
   
 **パーティクルが出てきたときの色**  
 頂点カラーを使用しているらしい
 
 ## Gravity Source
 
-デフォルト 3D Physics  
-選択できるもの 3D Physics, 2D Physics  
+デフォルト <code>3D Physics</code>  
+選択できるもの <code>3D Physics, 2D Physics</code>  
   
 **そもそもVRCって3Dだし弄る必要ないんじゃね？**  
 一応Unity Documentationには2D または 3D 物理システムからの重力強度を使用するかどうかを指定する所って書いてあるけどまあ気にしなくてよし、3DゲームのVRCだし。
 
 ## Gravity Modifier
 
-デフォルト 0(倍)  
-設定できる範囲 -100,000~100,000  
+デフォルト <code>0(倍)</code>  
+設定できる範囲 <code>-100,000~100,000</code>  
   
 **重力の影響をどのくらい受けるか設定できるやつ**  
 ワールドの重力設定によって変化しちゃうから基本的にForce over Lifetimeでいじるらしい
 
 ## Simulation Space
 
-デフォルト Local  
-選択できるもの Local, World, Custom  
+デフォルト <code>Local</code>  
+選択できるもの <code>Local, World, Custom</code>  
   
 **パーティクルを親オブジェクトのローカル座標で動かすかワールド座標で動かすか設定できるやつ**  
 LocalにするとParticle Systemの座標が変化したときに放出されたパーティクルも一緒に追従する  
@@ -136,8 +136,8 @@ Customにすると追従先が選択できる、追従先の座標が動いた�
 
 ## Simulation Speed
 
-デフォルト 1(倍)  
-設定できる範囲 0~100  
+デフォルト <code>1(倍)</code>  
+設定できる範囲 <code>0~100</code>  
   
 **パーティクルの動きやら放出速度やら全ての動きに対して倍率の設定ができるやつ**  
 数値が小さくなると負荷が大きくなって数値を大きくすると軽くなるんだって  
@@ -145,30 +145,30 @@ Customにすると追従先が選択できる、追従先の座標が動いた�
 
 ## Delta Time
 
-デフォルト Scaled  
+デフォルト <code>Scaled</code>  
   
 **VRCではまず使わないらしい**  
 Time Scaledの値を使用するかどうか決めるやつらしい、使わないらしいし気にする必要なし
 
 ## Scaling Mode
 
-デフォルト Local  
-選択できるもの Local, Hierarchy, Shape  
+デフォルト <code>Local</code>  
+選択できるもの <code>Local, Hierarchy, Shape</code>  
   
 **Particle System全体のスケールとパーティクル1つ1つのサイズがどこのTransformに依存するか決めれるところ**  
 Localだとこのオブジェクトのみ、Hierarchyにすると親のオブジェクトも、ShapeにするとShapeにのみTransformが影響しパーティクルのサイズ自体は変わらない
 
 ## Play On Awake
 
-デフォルト ON  
+デフォルト <code>ON</code>  
   
 **オブジェクトがアクティブになったときにパーティクルを再生させるか決めるやつ**  
 アバターやらパーティクルライブで使う分には全く使わないんだって
 
 ## Emitter Velocity
 
-デフォルト Rigidbody  
-選択できるもの Transform, Rigidbody, Custom  
+デフォルト <code>Rigidbody</code>  
+選択できるもの <code>Transform, Rigidbody, Custom</code>  
   
 **粒子の速度の計算方法の指定ができるらしい**  
 Rigidbodyを選択するとそれを元に速度計算、Transformで発生源の位置の変化で計算するらしい  
@@ -177,23 +177,23 @@ Rate over DistanceとInherit Velocityに使う計算方法をここで指定し�
 
 ## Max Particles
 
-デフォルト 1000(個)  
-選択できる範囲 0~2,147,483,647  
+デフォルト <code>1000(個)</code>  
+選択できる範囲 <code>0~2,147,483,647</code>  
   
 **同時にでるパーティクルの上限を決めるやつ**  
 パーティクルの数が上限に達したら古いものから消えていく
 
 ## Random Seed
 
-デフォルト ON  
+デフォルト <code>ON</code>  
   
 **基本ONのままでいい**  
 OFFにするとRandomSeedの項目が出てきてパーティクルの出方をseed値で固定出来る、右のReseedを押すとランダムでseed値を出してくれる
 
 ## Stop Action
 
-デフォルト None  
-選択できるもの None, Disable, Destroy, Callback  
+デフォルト <code>None</ode>  
+選択できるもの <code>None, Disable, Destroy, Callback</code>  
   
 **パーティクルの再生が終わった時にどういう動作をするか選ぶやつ**  
 **LoopingついてたらNoneでいいし、ついてなくても基本Noneでよさそう**  
@@ -204,16 +204,16 @@ CallbackはParticleSystemのオブジェクトにアタッチされたMonoBehavi
 
 ## Culling Mode
 
-デフォルト Automatic  
-選択できるもの Automatic, Pause and catch-up, Pause, Always Simulate  
+デフォルト <code>Automatic</code>  
+選択できるもの <code>Automatic, Pause and catch-up, Pause, Always Simulate</code>  
   
 **パーティクル全体のが画面外にある時パーティクルの再生をどうするかきめるやつ**  
 基本はAutomaticでいいけどたまに変えることがあるらしい、どういうときに変えるのかイマイチわからん
 
 ## Ring Buffer Mode
 
-デフォルト Disabled  
-選択できるもの Disabled, Pause Until Replaced, Loop Until Replaced  
+デフォルト <code>Disabled</code>  
+選択できるもの <code>Disabled, Pause Until Replaced, Loop Until Replaced</code>  
   
 **Max Particlesに設定した値までパーティクルが出続けるか決めるやつ**  
 Lifetimeが終わっても上限までパーティクルが残り続ける(多分)  
