@@ -2,87 +2,37 @@
 sidebar_position: 2
 ---
 
-# Translate your site
+## Emission
 
-Let's translate `docs/intro.md` to French.
+Emissionってなんやねん  
 
-## Configure i18n
+![module](./img/EmissionModule.png)  
+↑こいつのこと
 
-Modify `docusaurus.config.js` to add support for the `fr` locale:
+## Rate over Time
 
-```js title="docusaurus.config.js"
-export default {
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fr'],
-  },
-};
-```
+デフォルト <code>10(個/秒)</code>  
+選択できる範囲 <code>0~1e+07</code>
 
-## Translate a doc
+**1秒間に何個パーティクルを出すか設定するところ**  
+ただそれだけ  
+シンプルにパーティクルをの放出量を増やしたいときはここの数値高くすればいい
 
-Copy the `docs/intro.md` file to the `i18n/fr` folder:
+## Rate over Distance
 
-```bash
-mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
+デフォルト <code>0</code>  
+選択できる範囲 <code>0~1e+07</code>
 
-cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
-```
+**Particle Systemが移動したときにパーティクルを何個出すか設定するところ**  
+数値高くすると少し移動しただけでめっちゃパーティクルでてくる  
+移動速度が高くなるとそれに比例してパーティクルの放出間隔が狭くなる
+オブジェクトが移動したときにだけパーティクル出したい時とかに使ったり、速度で間隔が決まるから一定の間隔でパーティクル出したい時に使うっぽい
 
-Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
+##  Bursts
 
-## Start your localized site
+**決まった周期で決まった数のパーティクルを決まった回数放出させるための項目**
+# Probability
 
-Start your site on the French locale:
+選択できる範囲 <code>0~1</code>
 
-```bash
-npm run start -- --locale fr
-```
-
-Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.
-
-:::caution
-
-In development, you can only use one locale at a time.
-
-:::
-
-## Add a Locale Dropdown
-
-To navigate seamlessly across languages, add a locale dropdown.
-
-Modify the `docusaurus.config.js` file:
-
-```js title="docusaurus.config.js"
-export default {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'localeDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
-
-The locale dropdown now appears in your navbar:
-
-![Locale Dropdown](./img/localeDropdown.png)
-
-## Build your localized site
-
-Build your site for a specific locale:
-
-```bash
-npm run build -- --locale fr
-```
-
-Or build your site to include all the locales at once:
-
-```bash
-npm run build
-```
+****パーティクルを出す確率をいじれる**、1で100%
