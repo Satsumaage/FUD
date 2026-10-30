@@ -9,8 +9,6 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  * - provide next/previous navigation
  *
  * The sidebars can be generated from the filesystem, or explicitly defined here.
- *
- * Create as many sidebars as you want.
  */
 
 const sidebars: SidebarsConfig = {
@@ -19,9 +17,9 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'パーティクル',
       items: [
-        'particle/MainModule',
-        'particle/Shape',
-        'particle/Emission',
+        'パーティクル/MainModule',
+        'パーティクル/Shape',
+        'パーティクル/Emission',
       ],
     },
   ],
