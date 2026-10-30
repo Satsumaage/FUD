@@ -1,0 +1,27 @@
+{
+  "id": "パーティクル/Shape",
+  "title": "Shape",
+  "description": "Shape",
+  "source": "@site/docs/パーティクル/Shape.md",
+  "sourceDirName": "パーティクル",
+  "slug": "/パーティクル/Shape",
+  "permalink": "/FUD/docs/パーティクル/Shape",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Satsumaage/FUD/edit/main/docs/パーティクル/Shape.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "MainModule",
+    "permalink": "/FUD/docs/パーティクル/MainModule"
+  },
+  "next": {
+    "title": "Emission",
+    "permalink": "/FUD/docs/パーティクル/Emission"
+  }
+}

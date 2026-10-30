@@ -91,46 +91,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/FUD/docs/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/FUD/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/FUD/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/FUD/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/FUD/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/FUD/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/FUD/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/FUD/docs/tutorial-extras/translate-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "VRCFury/manage-docs-versions",
               "path": "/FUD/docs/VRCFury/manage-docs-versions",
               "sidebar": "tutorialSidebar"
@@ -161,18 +121,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "パーティクル/translate-your-site",
-              "path": "/FUD/docs/パーティクル/translate-your-site",
+              "id": "パーティクル/Shape",
+              "path": "/FUD/docs/パーティクル/Shape",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "軽量化",
               "path": "/FUD/docs/軽量化",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---basics",
-              "path": "/FUD/docs/category/tutorial---basics",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -208,11 +163,6 @@
             {
               "id": "/category/poiyomi",
               "path": "/FUD/docs/category/poiyomi",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras",
-              "path": "/FUD/docs/category/tutorial---extras",
               "sidebar": "tutorialSidebar"
             },
             {

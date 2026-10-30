@@ -17,11 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "MainModule",
-    "permalink": "/FUD/docs/パーティクル/MainModule"
-  },
-  "next": {
-    "title": "Translate your site",
-    "permalink": "/FUD/docs/パーティクル/translate-your-site"
+    "title": "Shape",
+    "permalink": "/FUD/docs/パーティクル/Shape"
   }
 }
