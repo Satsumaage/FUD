@@ -14,14 +14,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "constraintについて書くところ",
-    "permalink": "/FUD/docs/constraint"
-  },
-  "next": {
-    "title": "physboneについて書くところ",
-    "permalink": "/FUD/docs/physbone"
   }
 }

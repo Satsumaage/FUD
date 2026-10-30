@@ -14,14 +14,5 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Manage Docs Versions",
-    "permalink": "/FUD/docs/MA/manage-docs-versions"
-  },
-  "next": {
-    "title": "VRCFury",
-    "permalink": "/FUD/docs/category/vrcfury"
   }
 }

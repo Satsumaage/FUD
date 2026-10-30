@@ -14,14 +14,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Tutorial Intro",
-    "permalink": "/FUD/docs/intro"
-  },
-  "next": {
-    "title": "軽量化について書くところ",
-    "permalink": "/FUD/docs/軽量化"
   }
 }

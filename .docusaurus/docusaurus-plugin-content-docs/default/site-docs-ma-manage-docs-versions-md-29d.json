@@ -14,14 +14,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "MA",
-    "permalink": "/FUD/docs/category/ma"
-  },
-  "next": {
-    "title": "Translate your site",
-    "permalink": "/FUD/docs/MA/translate-your-site"
   }
 }

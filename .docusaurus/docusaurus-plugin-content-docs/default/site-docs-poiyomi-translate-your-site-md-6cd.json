@@ -14,14 +14,5 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Manage Docs Versions",
-    "permalink": "/FUD/docs/poiyomi/manage-docs-versions"
-  },
-  "next": {
-    "title": "テクスチャ解説",
-    "permalink": "/FUD/docs/category/テクスチャ解説"
   }
 }

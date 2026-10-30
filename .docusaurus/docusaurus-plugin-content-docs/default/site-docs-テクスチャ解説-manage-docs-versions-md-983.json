@@ -14,14 +14,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "テクスチャ解説",
-    "permalink": "/FUD/docs/category/テクスチャ解説"
-  },
-  "next": {
-    "title": "Translate your site",
-    "permalink": "/FUD/docs/テクスチャ解説/translate-your-site"
   }
 }

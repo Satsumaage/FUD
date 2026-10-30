@@ -14,14 +14,5 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Manage Docs Versions",
-    "permalink": "/FUD/docs/Blender/manage-docs-versions"
-  },
-  "next": {
-    "title": "GIMP",
-    "permalink": "/FUD/docs/category/gimp"
   }
 }

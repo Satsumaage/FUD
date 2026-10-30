@@ -14,14 +14,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Animator,Animation",
-    "permalink": "/FUD/docs/category/animatoranimation"
-  },
-  "next": {
-    "title": "Animator,Animation",
-    "permalink": "/FUD/docs/Animator,Animation/translate-your-site"
   }
 }

@@ -14,14 +14,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "VRCFury",
-    "permalink": "/FUD/docs/category/vrcfury"
-  },
-  "next": {
-    "title": "Translate your site",
-    "permalink": "/FUD/docs/VRCFury/translate-your-site"
   }
 }

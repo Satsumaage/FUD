@@ -14,14 +14,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Blender",
-    "permalink": "/FUD/docs/category/blender"
-  },
-  "next": {
-    "title": "Translate your site",
-    "permalink": "/FUD/docs/Blender/translate-your-site"
   }
 }

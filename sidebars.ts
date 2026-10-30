@@ -18,8 +18,8 @@ const sidebars: SidebarsConfig = {
       label: 'パーティクル',
       items: [
         'パーティクル/MainModule',
-        'パーティクル/Shape',
         'パーティクル/Emission',
+        'パーティクル/Shape',
       ],
     },
   ],

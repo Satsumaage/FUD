@@ -14,14 +14,5 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Manage Docs Versions",
-    "permalink": "/FUD/docs/Animator,Animation/manage-docs-versions"
-  },
-  "next": {
-    "title": "Blender",
-    "permalink": "/FUD/docs/category/blender"
   }
 }
